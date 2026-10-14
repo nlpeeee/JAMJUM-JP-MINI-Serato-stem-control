@@ -14,6 +14,8 @@ Inspired by [SDR3078/mvave-smc-pad-ableton](https://github.com/SDR3078/mvave-smc
 | --- | --- |
 | [`config/JAMJUM-MCU-FX.jpmini`](config/JAMJUM-MCU-FX.jpmini) | Controller preset for JAMJUM's KuSuite editor. Pads in CC Toggle mode with MCP mode on. |
 | [`config/JP-MIDI-MCP-v3.2.xml`](config/JP-MIDI-MCP-v3.2.xml) | Serato DJ Pro MIDI mapping, including the SysEx that lights the pads. |
+| [`docs/lighting.md`](docs/lighting.md) | How the pad lighting works in the XML: colours, brightness, triggers, and how to make your own. |
+| [`tools/jpmini_light.py`](tools/jpmini_light.py) | Builds or decodes the pad-colour SysEx keys for the XML. |
 | [`docs/serato-xml-notes.md`](docs/serato-xml-notes.md) | What we learnt about writing Serato mapping XML by hand. |
 | [`docs/jp-mini-findings.md`](docs/jp-mini-findings.md) | Hardware and protocol findings for this controller. |
 | [`docs/jp-mini-layout.svg`](docs/jp-mini-layout.svg) | The layout image above, as SVG. |
@@ -52,6 +54,8 @@ If you want to add or change something:
 - Edit the XML directly in a text editor (see [docs/serato-xml-notes.md](docs/serato-xml-notes.md)).
 
 Keep an untouched copy of `JP-MIDI-MCP-v3.2.xml` somewhere outside Serato's folder.
+
+To change colours, brightness or what lights a pad, see [docs/lighting.md](docs/lighting.md).
 
 ## Pad and button map
 
@@ -106,12 +110,13 @@ Short version below; details in [docs/jp-mini-findings.md](docs/jp-mini-findings
 
 ## What we learnt about Serato mapping XML
 
-Full notes in [docs/serato-xml-notes.md](docs/serato-xml-notes.md). The headlines:
+Full notes in [docs/serato-xml-notes.md](docs/serato-xml-notes.md), and lighting in [docs/lighting.md](docs/lighting.md). The headlines:
 
 - Conditions (`cmp_value`) must use the function's **alias names** (`on`, `off`). Numbers like `1` / `0` get the whole file rejected.
 - Stems are `codfather_st` (slot 0 Vocals, 1 Melody, 2 Bass, 3 Drums). Stem FX are `codfather_fx` (slot 0 Vocal Echo, 1 Instrumental Echo, 2 Instrumental **Braker** (Serato's own spelling), 3 Drums Echo).
 - For global toggles (quantize), use `data_type="Relative OnOff"` with `action_on="press" behaviour="toggle"`.
 - MIDI-learning a global control in Serato can create one toggle per deck. Four toggles on one press cancel out, so a press sometimes seems to do nothing. Keep one.
+- Pads are lit by one fixed `<sysex>` packet per pad per state, chosen by `<case><condition>` on the stem state. Several functions in a condition AND together; several cases OR together.
 - Saving in Serato strips `<sysex>` blocks.
 - Serato's error message is just "MIDI XML is not valid", with no line number. Add one block at a time.
 - Restart Serato and power-cycle the controller before debugging odd lights.
