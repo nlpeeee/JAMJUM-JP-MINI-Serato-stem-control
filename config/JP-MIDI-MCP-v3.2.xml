@@ -1,0 +1,1041 @@
+<midi app=" 5.0.0.950">
+    <control channel="10" event_type="Control Change" control="48">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="49">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="50">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="51">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="40">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="41">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="42">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" control="43">
+        <userio event="click">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                <translation action_on="any" behaviour="explicit"/>
+            </codfather_st>
+        </userio>
+        <userio event="output">
+            <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_st>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="44">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="45">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="1">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="1">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="46">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="2">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="2">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="47">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="3">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="0" slot_id="3">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="36">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="37">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="1">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="1">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="38">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="2">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="2">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="10" event_type="Control Change" data_type="Relative OnOff" control="39">
+        <userio event="click">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="3">
+                <translation action_on="press" behaviour="toggle"/>
+            </codfather_fx>
+        </userio>
+        <userio event="output">
+            <codfather_fx deck_set="Default" deck_id="1" slot_id="3">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </codfather_fx>
+        </userio>
+    </control>
+    <control channel="1" event_type="Control Change" data_type="Relative OnOff" control="24">
+        <userio event="click">
+            <quantize deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="press" behaviour="toggle"/>
+            </quantize>
+        </userio>
+        <userio event="output">
+            <quantize deck_set="Default" deck_id="0" slot_id="0">
+                <translation action_on="any">
+                    <alias name="on" value="127"/>
+                    <alias name="off" value="0"/>
+                </translation>
+            </quantize>
+        </userio>
+    </control>
+    <sysex key="7832453A030000064160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F00000402530313" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000064160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00000010084C0E416074080426477F00000402530305" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040064160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D000000400C0032416074080426477F00000402532336" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040064160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00000000000000416074080426477F00000402532328" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000074160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00000010084C0E0000100B0426477F0000040253030F" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000074160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00000010084C0E000000080426477F00000402530328" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040074160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00000010084C0E41607408440C407F0000040253433E" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040074160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00000010084C0E416074000000407F00000402536327" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000024160740804264720303A0402530300326402416911084C0E4160740804264720303A0402532310181D00000010084C0E416074080426477F00000402534338" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000024160740804264720303A0402530300000002416911084C0E4160740804264720303A0402532310181D00000010084C0E416074080426477F0000040253432A" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040024160740804264720303A0402532310181D48012016084C0E4160740804264720303A0402532310181D00000010084C0E416074080426477F00000402532338" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040024160740804264720303A0402532310181D00000010084C0E4160740804264720303A0402532310181D00000010084C0E416074080426477F0000040253232A" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000034160740804264720303A0402532310181D024169010000324160740804264720303A0402532310181D00000010084C0E416074080426477F00000402530311" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000034160740804264720303A0402532310181D024169010000004160740804264720303A0402532310181D00000010084C0E416074080426477F0000040253032A" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040034160740804264720303A0402532310181D02416911084C0E4148010804264720303A0402532310181D00000010084C0E416074080426477F00000402534300" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040034160740804264720303A0402532310181D02416911084C0E0000000804264720303A0402532310181D00000010084C0E416074080426477F00000402536329" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000044160740804264720303A0402532310181D02416911084C0E41607478776F5F20303A0402532310181D00102316084C0E416074080426477F00000402532318" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000044160740804264720303A0402532310181D02416911084C0E4160746852254B20303A0402532310181D00102316084C0E416074080426477F00000402536315" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040044160740804264720303A0402532310181D02416911084C0E416074080426473F00000402532310181D00102316084C0E416074080426477F00000402534317" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040044160740804264720303A0402532310181D02416911084C0E416074080426471600000402532310181D00102316084C0E416074080426477F0000040253032C" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000054160740804264720303A0402532310181D02416911084C0E4160740804264720303A0078072010181D00102316084C0E416074080426477F00000402532317" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000054160740804264720303A0402532310181D02416911084C0E4160740804264720303A0068022010181D00102316084C0E416074080426477F0000040253632B" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040054160740804264720303A0402532310181D02416911084C0E4160740804264720303A04025363543F0000102316084C0E416074080426477F00000402532302" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040054160740804264720303A0402532310181D02416911084C0E4160740804264720303A0402532347160000102316084C0E416074080426477F00000402532324" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="0" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000007F7E7D0B04264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F0000040253231A" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030000002D5A340904264720303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F00000402536317" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="0">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040004160747807004020303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F00000402534319" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040004160746802004020303A0402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F0000040253032E" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A0300000141607408042607007F000402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F00000402532319" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2" cmp_value="off" />
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A0300000141607408042607002D000402532310181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F0000040253632D" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="1">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="2">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040014160740804264720303A4C7A072010181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F00000402532304" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="off" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+    <sysex key="7832453A030040014160740804264720303A7468022010181D02416911084C0E4160740804264720303A0402532310181D00102316084C0E416074080426477F00000402532326" force_output="true">
+        <case>
+            <condition>
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3" cmp_value="on" />
+            </condition>
+            <userio event="output">
+                <codfather_st deck_set="Default" deck_id="1" slot_id="3">
+                    <translation action_on="any">
+                        <alias name="on" value="0" />
+                        <alias name="off" value="0" />
+                    </translation>
+                </codfather_st>
+            </userio>
+        </case>
+    </sysex>
+</midi>
